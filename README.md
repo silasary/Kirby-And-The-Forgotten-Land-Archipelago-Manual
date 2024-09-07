@@ -5,7 +5,9 @@ This is the Manual for the Nintendo Switch game "Kirby and the Forgotten Land" f
 
 The assumption here is that you already know how to use Manuals and just wanted more information on this Manual. If not, I would suggest starting with Archipelago itself (and eventually join their Discord since most communication happens via Discord). To look at Archipelago for yourself: https://archipelago.gg/
 
-Check the Releases part of this Github to grab the latest version of the Manual. Both the .apworld and the .yaml files can be found there. This is to be generated on AP version 0.5.0. Any questions or suggestions about this Manual can be directed to the Kirby and the Forgotten Land thread on the AP Manual Discord (preferred), or directly to TailsMK4 on Discord.
+Check the Releases part of this Github to grab the latest version of the Manual. Both the .apworld and the .yaml files can be found there. Do not download the source code. This is to be generated on AP version 0.5.0. 
+
+Any questions or suggestions about this Manual can be directed to the Kirby and the Forgotten Land thread on the AP Manual Discord (preferred), or directly to TailsMK4 on Discord.
 
 Since this is a Manual, you do not need to emulate this game to be able to play this Manual. I would **highly recommend** buying "Kirby and the Forgotten Land" on Switch if you have not already, as it is not only the fastest and easiest way to get started with this Manual, but it looks good for Nintendo as well to keep encouraging HAL to make more Kirby games. Buying the games is the best way to support any franchise, especially for a franchise that tends to not be as popular as other noteworthy franchises by Nintendo.
 
