@@ -1,0 +1,52 @@
+[ 
+    { "name": "Progressive Bomb Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+    { "name": "Progressive Crash Ability", "category": ["Copy Abilities"], "count": 2, "progression": true },
+    { "name": "Progressive Cutter Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+    { "name": "Progressive Drill Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+    { "name": "Progressive Fire Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+    { "name": "Progressive Hammer Ability", "category": ["Copy Abilities"], "count": 4, "progression": true },
+    { "name": "Progressive Ice Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+    { "name": "Progressive Needle Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+    { "name": "Progressive Ranger Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+    { "name": "Progressive Sleep Ability", "category": ["Copy Abilities"], "count": 2, "progression": true },
+    { "name": "Progressive Sword Ability", "category": ["Copy Abilities"], "count": 4, "progression": true },
+    { "name": "Progressive Tornado Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
+
+    { "name": "Arch Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Big-Rig Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Car Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Coaster Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Cone Mouth", "category": ["Mouthful Mode Abilities"], "progression": true, "early": true },
+    { "name": "Dome Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Light-Bulb Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Pipe Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Ring Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Scissor-Lift Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Stairs Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Storage Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Vending Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+    { "name": "Water-Balloon Mouth", "category": ["Mouthful Mode Abilities"], "progression": true },
+
+    { "name": "Waddle Dee Cinema Unlock", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+    { "name": "Waddle Dee-liveries Unlock", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+    { "name": "Waddle Dee Cafe Unlock", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+    { "name": "Wise Waddle Dee Appears", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+    { "name": "Waddle Dee's Item Shop Unlock", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+    { "name": "Flash Fishing Mini-Game Unlock", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+    { "name": "Tilt-and-Roll Kirby Mini-Game Unlock", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+    { "name": "Waddle Live! Corner Stage Unlock", "category": ["Waddle Dee Town Unlocks"], "progression": true },
+
+    { "name": "Meta Knight Cup Clear", "category": ["Colosseum"], "progression": true },
+    { "name": "The Ultimate Cup Clear", "category": ["Colosseum"], "progression": true },
+    { "name": "The Ultimate Cup Z Clear", "category": ["Colosseum"], "progression": true },
+
+    { "name": "Waddle Dee", "category": ["Waddle Dees"], "count": 300, "progression": true },
+
+    { "name": "Leon Soul", "category": ["Leon Souls"], "count": 300, "progression": true },
+
+    { "name": "Gotcha Capsule Figure", "category": ["Gotcha Capsule Figures"], "count": 256, "progression": true },
+
+    { "name": "Rare Stone", "count": 66, "filler": true },
+
+    { "name": "Progressive Stage Clear", "category": ["Stage Clears"], "count": 40, "progression": true }
+]

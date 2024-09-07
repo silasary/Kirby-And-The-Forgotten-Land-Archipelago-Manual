@@ -1,0 +1,72 @@
+{
+    "Point of Arrival": { "starting": true, "connects_to": ["Waddle Dee Town"] },
+    "Waddle Dee Town": { "connects_to": ["Natural Plains", "Figure Collection Volume 1"], "requires": "|Progressive Stage Clear|" },
+    "Figure Collection Volume 1": { "connects_to": [], "requires": "|Progressive Stage Clear:2|" },
+
+    "Natural Plains": { "connects_to": ["Downtown Grassland"], "requires": "|Progressive Stage Clear|" },
+    "Downtown Grassland": { "connects_to": ["Through the Tunnel"], "requires": "|Progressive Stage Clear|" },
+    "Through the Tunnel": { "connects_to": ["Rocky Rollin' Road"], "requires": "|Progressive Stage Clear:2|" },
+    "Rocky Rollin' Road": { "connects_to": ["A Trip to Alivel Mall"], "requires": "|Progressive Stage Clear:3|" },
+    "A Trip to Alivel Mall": { "connects_to": ["The Brawl at the Mall"], "requires": "|Progressive Stage Clear:4|" },
+    "The Brawl at the Mall": { "connects_to": ["Everbay Coast"], "requires": "|Progressive Stage Clear:5| AND |Waddle Dee:17|" },
+
+    "Everbay Coast": { "connects_to": ["Abandoned Beach"], "requires": "|Progressive Stage Clear:6|" },
+    "Abandoned Beach": { "connects_to": ["Concrete Isles"], "requires": "|Progressive Stage Clear:6|" },
+    "Concrete Isles": { "connects_to": ["Scale the Cement Summit"], "requires": "|Progressive Stage Clear:7|" },
+    "Scale the Cement Summit": { "connects_to": ["Fast-Flowing Waterworks"], "requires": "|Progressive Stage Clear:8|" },
+    "Fast-Flowing Waterworks": { "connects_to": ["The Tropical Terror"], "requires": "|Progressive Stage Clear:9|" },
+    "The Tropical Terror": { "connects_to": ["Wondaria Remains"], "requires": "|Progressive Stage Clear:10| AND |Waddle Dee:36|" },
+
+    "Wondaria Remains": { "connects_to": ["Welcome to Wondaria"], "requires": "|Progressive Stage Clear:11|" },
+    "Welcome to Wondaria": { "connects_to": ["Circuit Speedway"], "requires": "|Progressive Stage Clear:11|" },
+    "Circuit Speedway": { "connects_to": ["Invasion at the House of Horrors"], "requires": "|Progressive Stage Clear:12|" },
+    "Invasion at the House of Horrors": { "connects_to": ["The Wondaria Dream Parade"], "requires": "|Progressive Stage Clear:13|" },
+    "The Wondaria Dream Parade": { "connects_to": ["Danger Under the Big Top"], "requires": "|Progressive Stage Clear:14|" },
+    "Danger Under the Big Top": { "connects_to": ["Winter Horns", "Meta Knight Cup", "Figure Collection Volume 2"], "requires": "|Progressive Stage Clear:15| AND |Waddle Dee:57|" },
+    "Figure Collection Volume 2": { "connects_to": [], "requires": "|Progressive Stage Clear:16|" },
+
+    "Meta Knight Cup": { "connects_to": [], "requires": "|Progressive Stage Clear:16|" },
+
+    "Winter Horns": { "connects_to": ["Northeast Frost Street"], "requires": "|Progressive Stage Clear:16|" },
+    "Northeast Frost Street": { "connects_to": ["Metro on Ice"], "requires": "|Progressive Stage Clear:16|" },
+    "Metro on Ice": { "connects_to": ["Windy, Freezing Seas"], "requires": "|Progressive Stage Clear:17|" },
+    "Windy, Freezing Seas": { "connects_to": ["The Battle of Blizzard Bridge"], "requires": "|Progressive Stage Clear:18|" },
+    "The Battle of Blizzard Bridge": { "connects_to": ["An Unexpected Beast King"], "requires": "|Progressive Stage Clear:19|" },
+    "An Unexpected Beast King": { "connects_to": ["Originull Wasteland"], "requires": "|Progressive Stage Clear:20| AND |Waddle Dee:90|" },
+
+    "Originull Wasteland": { "connects_to": ["The Wastes Where Life Began"], "requires": "|Progressive Stage Clear:21|" },
+    "The Wastes Where Life Began": { "connects_to": ["Searching the Oasis"], "requires": "|Progressive Stage Clear:21|" },
+    "Searching the Oasis": { "connects_to": ["Alivel Mall (Staff Side)"], "requires": "|Progressive Stage Clear:22|" },
+    "Alivel Mall (Staff Side)": { "connects_to": ["Moonlight Canyon"], "requires": "|Progressive Stage Clear:23|" },
+    "Moonlight Canyon": { "connects_to": ["Collector in the Sleeping Valley"], "requires": "|Progressive Stage Clear:24|" },
+    "Collector in the Sleeping Valley": { "connects_to": ["Redgar Forbidden Lands", "Figure Collection Volume 3"], "requires": "|Progressive Stage Clear:25| AND |Waddle Dee:115|" },
+    "Figure Collection Volume 3": { "connects_to": [], "requires": "|Progressive Stage Clear:26|" },
+
+    "Redgar Forbidden Lands": { "connects_to": ["Enter the Fiery Forbidden Lands"], "requires": "|Progressive Stage Clear:26|" },
+    "Enter the Fiery Forbidden Lands": { "connects_to": ["Conquer the Inferno Road"], "requires": "|Progressive Stage Clear:26|" },
+    "Conquer the Inferno Road": { "connects_to": ["Burning, Churning Power Plant"], "requires": "|Progressive Stage Clear:27|" },
+    "Burning, Churning Power Plant": { "connects_to": ["Gathering of the Beast Council"], "requires": "|Progressive Stage Clear:28|" },
+    "Gathering of the Beast Council": { "connects_to": ["The Beast Pack's Final Stand"], "requires": "|Progressive Stage Clear:29|" },
+    "The Beast Pack's Final Stand": { "connects_to": ["In the Presence of the King"], "requires": "|Progressive Stage Clear:30|" },
+    "In the Presence of the King": { "connects_to": ["Lab Discovera"], "requires": "|Progressive Stage Clear:31| AND |Waddle Dee:147|" },
+
+    "Lab Discovera": { "connects_to": ["Waddle Dee Town (Post Game)", "Figure Collection Volume 4"], "requires": "|Progressive Stage Clear:32| AND |Dome Mouth|" },
+    "Figure Collection Volume 4": { "connects_to": [], "requires": "|Progressive Stage Clear:33|" },
+
+    "Waddle Dee Town (Post Game)": { "connects_to": ["Forgo Dreams", "The Ultimate Cup"], "requires": "|Progressive Stage Clear:33|" } ,
+
+    "The Ultimate Cup": { "connects_to": [], "requires": "|Progressive Stage Clear:33| AND |Meta Knight Cup Clear|" },
+
+    "Forgo Dreams": { "connects_to": ["Forgo Plains"], "requires": "|Progressive Stage Clear:33|" },
+    "Forgo Plains": { "connects_to": ["Forgo Bay"], "requires": "|Progressive Stage Clear:33|" },
+    "Forgo Bay": { "connects_to": ["Forgo Park"], "requires": "|Progressive Stage Clear:34|" },
+    "Forgo Park": { "connects_to": ["Forgo Horns"], "requires": "|Progressive Stage Clear:35|" },
+    "Forgo Horns": { "connects_to": ["Forgo Wasteland"], "requires": "|Progressive Stage Clear:36|" },
+    "Forgo Wasteland": { "connects_to": ["Forgo Zone"], "requires": "|Progressive Stage Clear:37|" },
+    "Forgo Zone": { "connects_to": ["Forgo Land"], "requires": "|Progressive Stage Clear:38|" },
+    "Forgo Land": { "connects_to": ["The Ultimate Cup Z"], "requires": "|Progressive Stage Clear:39| AND |Leon Soul:250|" },
+
+    "The Ultimate Cup Z": { "connects_to": ["Waddle Dee Town (Full Game)"], "requires": "|Progressive Stage Clear:40| AND |The Ultimate Cup Clear|" },
+
+    "Waddle Dee Town (Full Game)": { "connects_to": [], "requires": "|Waddle Dee:300| AND |Gotcha Capsule Figure:256|" }
+}

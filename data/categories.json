@@ -1,0 +1,7 @@
+{
+    "Randomize Big-Rig Mouth":{"yaml_option": ["randomize_big_rig_mouth"]},
+
+    "Treasure Roads Include":{"hidden": true, "yaml_option": ["treasure_roads_include"]},
+
+    "Waddle Dee Town Include":{"hidden": true, "yaml_option": ["waddle_dee_town_include"]}
+}

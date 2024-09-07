@@ -1,0 +1,7 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "KirbyForgottenLand",
+  "player": "TailsMK4",
+  "filler_item_name": "Star Coins",
+  "death_link": false
+}
