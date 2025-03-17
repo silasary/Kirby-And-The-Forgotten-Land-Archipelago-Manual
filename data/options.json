@@ -1,0 +1,80 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "Win Condition",
+            "description": [
+                "defeat_meta_knight: Defeat Meta Knight inside Meta Knight Cup to win. Meta Knight Cup is unlocked after clearing Wondaria Remains.",
+                "This goal is intended for short multis/playtime.",
+                " ",
+                "clear_lab_discovera: Defeat Fecto Elfilis at Lab Discovera to win. This goal is intended for long multis/playtime, but is too short for asyncs.",
+                " ",
+                "clear_the_ultimate_cup_z: Defeat Chaos Elfilis inside The Ultimate Cup Z to win. This goal is intended for asyncs, but might be ok in a long",
+                "multi if you are a speedrunner or have very little BK time.",
+                " ",
+                "100_percent_clear: Complete the game 100%. In other words, get the pop up that tells you that you beat the game 100%. For this Manual, that",
+                "means all 300 Waddle Dees and 256 Figures (which is everything else in the game not related to Waddle Dee collection) collected. You are expected",
+                "to full clear your seed. This goal is only to be used in long-running asyncs/playtime. You must double check that an async's rules will allow you",
+                "to get every check in your seed. If that may be a problem, play with The Ultimate Cup Z Goal instead.",
+                " ",
+                "More goals to come in a later version."
+            ],
+            "default": "clear_lab_discovera",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 20
+            }
+        }
+    },
+    "user": {
+        "Randomize Big-Rig Mouth":{
+            "description": [
+                "Should Big-Rig Mouth get randomized like most of the other Mouthful Mode Abilities? If true, one check is removed from Lab Discovera and the item",
+                "is instead randomized to a check prior to Lab Discovera. This item is required to beat Lab Discovera regardless of setting. This option is",
+                "ignored instead if the goal is to defeat Meta Knight."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "Treasure Roads Include":{
+            "description": [
+                "Choose whether the Manual should place items in the various Treasure Roads in the game. You may be required to complete some of these challenges",
+                "for progression. Beating the target times will NEVER be required. If false, the Manual will remove these locations before placing items. The",
+                "Treasure Roads in Winter Horns and beyond are only active if the goal is not to defeat Meta Knight. This option is always enabled if goal is",
+                "100% completion."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "Waddle Dee Town Include":{
+            "description": [
+                "Choose whether the Manual should place items in the various activities that can be done in Waddle Dee Town. These are:",
+                " ",
+                "Talking to the Wise Waddle Dee",
+                "Present Codes to Waddle Dee-liveries",
+                "Buying items at both Waddle Dee Cafe and the Item Shop",
+                "Completing the Help Wanted Mini-Game at all difficulty levels",
+                "Tipping The Deedly Dees to upgrade the stage they play on (once after beating Lab Discovera, the other after beating Morpho Knight)",
+                "Catching the Bling Blipper at the Fishing Pond next to Kirby's House",
+                "Completing the first three levels of Tilt-and-Roll Kirby (you will NOT be required to complete the harder levels)",
+                " ",
+                "These locations are ignored if false. Blueprints from Weapons Shop Waddle Dee will always appear regardless of this setting. King Dedede's",
+                "Blueprint will also always appear as long as the goal is either The Ultimate Cup Z or 100%. Only Wise Waddle Dee, Waddle Dee-liveries, and",
+                "the Cafe are available if the goal is to defeat Meta Knight. This option is always enabled if goal is 100% completion."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+    }
+}

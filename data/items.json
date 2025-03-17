@@ -1,4 +1,6 @@
-[ 
+{ 
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
     { "name": "Progressive Bomb Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
     { "name": "Progressive Crash Ability", "category": ["Copy Abilities"], "count": 2, "progression": true },
     { "name": "Progressive Cutter Ability", "category": ["Copy Abilities"], "count": 3, "progression": true },
@@ -46,7 +48,6 @@
 
     { "name": "Gotcha Capsule Figure", "category": ["Gotcha Capsule Figures"], "count": 256, "progression": true },
 
-    { "name": "Rare Stone", "count": 66, "filler": true },
-
     { "name": "Progressive Stage Clear", "category": ["Stage Clears"], "count": 40, "progression": true }
-]
+            ]
+}
